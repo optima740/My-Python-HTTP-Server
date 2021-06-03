@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyHTTP-Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/">
+    <!-- Подключаем Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="col-sm-4">
+    <dl>
+        <dt>
+            <form action="" method="post">
+                <input type="hidden" name="auth" value=1>
+                <input type="hidden" name="registr" value=0>
+                <input type="username" class="form-control" id="exampleInputEmail3" placeholder="Enter email" name="login">
+                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password" name="password">
+                <button class="btn btn-primary js-tooltip" title="" data-original-title="">Войти</button>
+            </form>
+        </dt>
+        <dt>
+            <form action="" method="post">
+                <input type="hidden" name="auth" value=0>
+                <input type="hidden" name="registr" value=1>
+                <input type="username" class="form-control" id="exampleInputEmail3" placeholder="Enter username" name="user_name">
+                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email" name="login">
+                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password" name="password">
+                <button class="btn btn-primary js-tooltip" title="" data-original-title="">Зарегистрироваться</button>
+            </form>
+        </dt>
+    </dl>
+</div>
+</body>
+</html>

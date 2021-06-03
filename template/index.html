@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MyHTTP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/x-icon" href="/">
+    <!-- Подключаем Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навигационная панель -->
+    <div class="general-container ">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="/">Главная</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="navbar-brand" href="/quit">Выйти</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>>
+    <div class="row justify-content-center">
+        <dl>
+            <dt>
+                <h1><a href="http://127.0.0.1:8080/get_all_mysql" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Все данные по автомобилям</a></h1>
+            </dt>
+            <dt>
+                <h1><a href="http://127.0.0.1:8080/get_all_redis" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Все данные по водителям</a></h1>
+            </dt>
+            <dt>
+                <h1><a href="http://127.0.0.1:8080/get_log" class="btn btn-secondary btn-lg" role="button" aria-pressed="true">Получить логи</a></h1>
+            </dt>
+        </dl>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12 text-center">
+            <h3>Добавить автомобиль:</h3>
+        </div>
+        <div class="col-md-10">
+            <form  action="http://127.0.0.1:8080/save_mysql" method="post"  class="form-horizontal" novalidate="">
+                <fieldset>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Производитель
+                        </div>
+                        <div class="col-sm-6 ">
+                            <input name="brand" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Модель
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="model" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Год выпуска
+                        </div>
+                        <div class="col-sm-6 ">
+                            <input name="year_of_release" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-6">
+                            Цвет
+                        </label>
+                        <div class="col-sm-6 ">
+                            <input name="color" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row offset-6">
+                        <button class="btn btn-primary js-tooltip" title="" data-original-title="">Добавить</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="col-md-12 text-center">
+            <h3>Добавить водителя:</h3>
+        </div>
+        <div class="col-md-10">
+            <form  action="http://127.0.0.1:8080/save_redis" method="post"  class="form-horizontal" novalidate="">
+                <fieldset>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            ID
+                        </div>
+                        <div class="col-sm-6 ">
+                            <input name="id" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Имя
+                        </div>
+                        <div class="col-sm-6">
+                            <input name="name" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            Возраст
+                        </div>
+                        <div class="col-sm-6 ">
+                            <input name="age" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label class="col-sm-6">
+                            Стаж вождения
+                        </label>
+                        <div class="col-sm-6 ">
+                            <input name="exp" class="form-control" type="text" value="">
+                        </div>
+                    </div>
+                    <div class="row offset-6">
+                        <button class="btn btn-primary js-tooltip" title="" data-original-title="">Добавить</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

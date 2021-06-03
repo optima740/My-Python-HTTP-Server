@@ -1,0 +1,25 @@
+html, body{
+width: auto;
+ margin:0;
+ padding:0;
+ height: 100%;
+
+}
+.general-container{
+
+ min-height: 100%;
+ background-image: url('../images/bg3.png');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
+ font-family: 'roboto', sans-serif;
+ color: #667;
+}
+.container{
+
+    min-height: 100%;
+    padding-top: 60px;
+
+}
+

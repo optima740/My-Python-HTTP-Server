@@ -1,0 +1,455 @@
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login eee
+ERROR:root:Error in login user1
+ERROR:root:Error in login user1%401
+INFO:root:User user1%401 created successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green')] in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '', 'name': '', 'age': '', 'exp': ''}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'UAZ', 'model': '112', 'year_of_release': 2001, 'color': 'blue'} in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'UAZ', 'model': '112', 'year_of_release': 2000, 'color': 'red'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red')] in MySQL -- successfully
+INFO:root:Status:200: Method POST for SAVE user data {'id': '15', 'name': '%D0%94%D0%B5%D0%BD%D0%B8%D1%81', 'age': '29', 'exp': '12'} in Redis -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '15', 'name': '%D0%94%D0%B5%D0%BD%D0%B8%D1%81', 'age': '29', 'exp': '12'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+ERROR:root:Status:400: Error in method POST for SAVE data in MySQL
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Status:400: Error in method POST for SAVE data in MySQL
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red')] in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '15', 'name': '%D0%94%D0%B5%D0%BD%D0%B8%D1%81', 'age': '29', 'exp': '12'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red')] in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '15', 'name': '%D0%94%D0%B5%D0%BD%D0%B8%D1%81', 'age': '29', 'exp': '12'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'kia', 'model': 'ceed', 'year_of_release': 2012, 'color': 'silver'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in login
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+INFO:root:User user77%4077 created successfull
+INFO:root:User user77%4077 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+ERROR:root:Error in handler URL not found
+INFO:root:User user77%4077 created successfull
+INFO:root:User user77%4077 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:User user77%4077 created successfull
+INFO:root:User user77%4077 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:User user77%4077 created successfull
+INFO:root:User user77%4077 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+ERROR:root:Error in login
+INFO:root:User user78%4078 created successfull
+INFO:root:User user78%4078 login is successfull
+ERROR:root:Error in handler URL not found
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user78%4078 login is successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user78%4078 login is successfull
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user78%4078 login is successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user78%4078 login is successfull
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '15', 'name': '%D0%94%D0%B5%D0%BD%D0%B8%D1%81', 'age': '29', 'exp': '12'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '15', 'name': '%D0%94%D0%B5%D0%BD%D0%B8%D1%81', 'age': '29', 'exp': '12'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method POST for SAVE user data {'id': '20', 'name': 'James', 'age': '33', 'exp': '15'} in Redis -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method POST for SAVE user data {'id': '20', 'name': 'James', 'age': '33', 'exp': '15'} in Redis -- successfully
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '20', 'name': 'James', 'age': '33', 'exp': '15'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method POST for SAVE user data {'id': '20', 'name': 'James', 'age': '33', 'exp': '15'} in Redis -- successfully
+INFO:root:User serinata1%40rambler.ru login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User is exit
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method GET for get_all_data user data {'driver1': {'id': '1', 'name': 'Alex', 'age': '28', 'exp': '5'}, 'driver10': {'id': '20', 'name': 'James', 'age': '33', 'exp': '15'}, 'driver2': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10', 'na': 'Ivan'}, 'driver3': {'id': '3', 'name': 'Garry', 'age': '50', 'exp': '22'}, 'driver4': {'id': '4', 'name': 'Ivan', 'age': '33', 'exp': '15'}, 'driver5': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver6': {'id': '5', 'name': 'Sergey', 'age': '29', 'exp': '10'}, 'driver7': {'id': '7', 'name': 'Andrey', 'age': '23', 'exp': '5'}, 'driver8': {'id': '10', 'name': 'Oleg', 'age': '45', 'exp': '20'}, 'driver9': {'id': '', 'name': '', 'age': '', 'exp': ''}} in Redis -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'id': '20', 'name': 'James', 'age': '33', 'exp': '15'} in Redis -- successfully
+INFO:root:Starting httpd...
+
+ERROR:root:Error in login
+ERROR:root:Error in login
+ERROR:root:Error in login
+ERROR:root:Error in login
+ERROR:root:Error in login
+ERROR:root:Error in login
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black'), (43, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black'), (43, 'nissan', 'almera', 2000, 'black'), (44, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black'), (43, 'nissan', 'almera', 2000, 'black'), (44, 'nissan', 'almera', 2000, 'black'), (45, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black'), (43, 'nissan', 'almera', 2000, 'black'), (44, 'nissan', 'almera', 2000, 'black'), (45, 'nissan', 'almera', 2000, 'black'), (46, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black'), (43, 'nissan', 'almera', 2000, 'black'), (44, 'nissan', 'almera', 2000, 'black'), (45, 'nissan', 'almera', 2000, 'black'), (46, 'nissan', 'almera', 2000, 'black'), (47, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'brand': 'nissan', 'model': 'almera', 'year_of_release': 2000, 'color': 'black'} in MySQL -- successfully
+INFO:root:Status:200: Method GET for get_all_data user data [(1, 'mercedes', 'gle', 2020, 'black'), (2, 'bmv', 'm5', 2018, 'blue'), (3, 'audi', 'a8', 2019, 'red'), (4, 'audi', 'a7', 2015, 'white'), (5, 'VW', 'polo', 2021, 'silver'), (6, 'VW', 'polo', 2021, 'silver'), (7, 'VW', 'polo', 2021, 'silver'), (8, 'VW', 'polo', 2021, 'silver'), (9, 'VW', 'polo', 2021, 'silver'), (10, 'VW', 'polo', 2021, 'silver'), (11, 'VW', 'polo', 2021, 'silver'), (12, 'VW', 'polo', 2021, 'silver'), (13, 'VW', 'polo', 2021, 'silver'), (14, 'VW', 'polo', 2021, 'silver'), (15, 'GAZ', '3110', 2015, 'green'), (16, 'GAZ', '3110', 2015, 'red'), (17, 'GAZ', '3110', 2015, 'red'), (18, 'GAZ', '3110', 2015, 'red'), (19, 'VAZ', 'Niva', 2015, 'white'), (20, 'ZZZ', 'Z2000', 2015, 'green'), (21, 'ford', 'focus', 2005, 'red'), (22, 'fiat', 'albea', 2009, 'green'), (23, 'UAZ', '112', 2003, 'green'), (24, 'UAZ', '112', 2003, 'green'), (25, 'UAZ', '112', 2003, 'green'), (26, 'UAZ', '112', 2001, 'blue'), (27, 'UAZ', '112', 2000, 'red'), (28, 'kia', 'ceed', 2012, 'silver'), (29, 'nissan', 'almera', 2000, 'black'), (30, 'nissan', 'almera', 2000, 'black'), (31, 'nissan', 'almera', 2000, 'black'), (32, 'nissan', 'almera', 2000, 'black'), (33, 'nissan', 'almera', 2000, 'black'), (34, 'nissan', 'almera', 2000, 'black'), (35, 'nissan', 'almera', 2000, 'black'), (36, 'nissan', 'almera', 2000, 'black'), (37, 'nissan', 'almera', 2000, 'black'), (38, 'nissan', 'almera', 2000, 'black'), (39, 'nissan', 'almera', 2000, 'black'), (40, 'nissan', 'almera', 2000, 'black'), (41, 'nissan', 'almera', 2000, 'black'), (42, 'nissan', 'almera', 2000, 'black'), (43, 'nissan', 'almera', 2000, 'black'), (44, 'nissan', 'almera', 2000, 'black'), (45, 'nissan', 'almera', 2000, 'black'), (46, 'nissan', 'almera', 2000, 'black'), (47, 'nissan', 'almera', 2000, 'black'), (48, 'nissan', 'almera', 2000, 'black')] in MySQL -- successfully
+INFO:root:Starting httpd...
+
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'id': '21', 'name': 'James', 'age': '33', 'exp': '15'} in Redis -- successfully
+INFO:root:User user1%401 login is successfull
+INFO:root:Status:200: Method POST for SAVE user data {'id': '21', 'name': 'James', 'age': '33', 'exp': '15'} in Redis -- successfully
